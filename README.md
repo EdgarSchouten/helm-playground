@@ -22,3 +22,6 @@ This project uses docker desktop for mac for local kubernetes cluster.
 #### 1. [simple nginx chart](./nginx-basic)
 
 #### 2. [nginx template chart](./nginx-template)
+
+#### 3. [install ops view from remote repository](./kube-ops-view)
+        
