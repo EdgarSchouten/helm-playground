@@ -14,3 +14,5 @@ This project uses docker desktop for mac for local kubernetes cluster.
 [Install nginx ingress controller README.md](./ingress-controller-nginx/README.md)
 
 #### 1. [simple nginx chart](./nginx-basic)
+
+#### 2. [nginx template chart](./nginx-template)
