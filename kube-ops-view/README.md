@@ -1,8 +1,19 @@
 # Kubernetes Operational View Helm Chart
 
+This README talks about installing ops view chart directly from repository. So far we have only 
+installed charts from local, helm can also install charts published to repositories.
+
 [Kubernetes Operational View](https://github.com/hjacobs/kube-ops-view) provides a read-only system dashboard for multiple K8s clusters
 
 [ops-view chart](https://hub.helm.sh/charts/incubator/kube-ops-view)
+
+## Add incubator repo 
+
+Add incubator repository if not added already, use `helm repo list` to get list of repos.
+
+```console
+$ helm repo add incubator https://kubernetes-charts-incubator.storage.googleapis.com`
+```
 
 ## Installing the Chart
 
