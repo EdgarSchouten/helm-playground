@@ -3,7 +3,7 @@
 The simplest possible helm chart for nginx
 
 ### Install nginx-basic chart
-`$ helm install nginx-basic`
+`$ helm install nginx nginx-basic`
 
 ### Verify installation
 
@@ -28,8 +28,8 @@ Open web browser and hit `http://localhost/nginx`
 
 1.  Get release name: `$ helm list`
     ```$xslt
-    NAME         	REVISION	UPDATED                 	STATUS  	CHART            	APP VERSION	NAMESPACE
-    mangy-chicken	1       	Fri Apr 10 12:44:10 2020	DEPLOYED	nginx-basic-0.1.0	1.0        	default 
+    NAME 	NAMESPACE	REVISION	UPDATED                             	STATUS  	CHART            	APP VERSION
+    nginx	default  	1       	2020-04-10 19:30:32.177196 +0100 BST	deployed	nginx-basic-0.1.0	1.0     
     ```
 
-2.  Delete release: `$ helm delete mangy-chicken`
+2.  Delete release: `$ helm delete nginx`
