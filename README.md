@@ -24,4 +24,6 @@ This project uses docker desktop for mac for local kubernetes cluster.
 #### 2. [nginx template chart](./nginx-template)
 
 #### 3. [install ops view from remote repository](./kube-ops-view)
+
+#### 4. [upgrade and rollback nginx template release](./nginx-upgrade-rollback)
         
