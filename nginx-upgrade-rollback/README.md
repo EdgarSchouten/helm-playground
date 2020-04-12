@@ -28,7 +28,7 @@ into application failure.
   
 ### Rollback release
 
-- We have install and upgraded `nginx-template` as mentioned in [Upgrade release](#Upgrade release)
+- We have install and upgraded `nginx-template` as mentioned in [Upgrade release](###Upgrade release)
   
 - Let's rollback the recent release, `$ helm rollback nginx-template 1`
 
