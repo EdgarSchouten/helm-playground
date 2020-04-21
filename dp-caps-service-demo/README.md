@@ -27,3 +27,7 @@ Update `templates/deployment.yaml` as follows:
 - remove `:{{ .Chart.AppVersion }}` from `image` value
 - update `containerPort` value to `{{ .Values.service.port }}`
 - liveness and readiness probe `path` to `/health`
+
+### Install demo service
+
+`$ helm install dp-caps-service-demo dp-caps-service-demo/`
