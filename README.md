@@ -23,11 +23,14 @@ This project uses docker desktop for mac for local kubernetes cluster.
 
 #### 2. [nginx template chart](./nginx-template)
 
-#### 3. [install ops view from remote repository](./kube-ops-view)
+#### 3. [upgrade and rollback nginx template release](./nginx-upgrade-rollback)
 
-#### 4. [upgrade and rollback nginx template release](./nginx-upgrade-rollback)
+#### 4. [create chart for dp-caps-service-demo](./dp-caps-service-demo/README.md)
 
-#### 5. [use external config](./nginx-external-config)
+### Bonus
+- [use external config](./nginx-external-config)
+- [install ops view from remote repository](./kube-ops-view)
+
      
 ### References
 
