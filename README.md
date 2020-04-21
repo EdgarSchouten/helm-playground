@@ -17,7 +17,7 @@ This project uses docker desktop for mac for local kubernetes cluster.
 
 [Install and configure kubernetes dashboard](./kubernetes-dashboard/README.md)
 
-### Helm chart examples
+### Hands on
 
 #### 1. [simple nginx chart](./nginx-basic)
 
